@@ -3,7 +3,7 @@ _DISCLMAIMER: Esse texto foi gerado por IA_
 
 Um timer Pomodoro no terminal construído com Textual TUI — meu primeiro projeto explorando o Textual e o uv como gerenciador de pacotes moderno.
 
-![https://github.com/Arthurcn96/pomodoro/blob/main/demo.mp4]
+https://github.com/user-attachments/assets/0cc4bb6a-2142-443f-acf0-3ba6e4fca112
 
 ## Funcionalidades
 
@@ -37,3 +37,4 @@ uv run pomodoro
 
 - [Textual](https://github.com/Textualize/textual) — framework para TUIs em Python
 - [uv](https://docs.astral.sh/uv/) — gerenciador de pacotes e projetos Python
+
