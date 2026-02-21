@@ -1,0 +1,18 @@
+[project]
+name = "pomodoro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "textual>=8.0.0",
+]
+
+[project.scripts]
+pomodoro = "main:main"
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+py-modules = ["clock", "pomodoro", "main"]

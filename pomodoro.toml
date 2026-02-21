@@ -1,0 +1,5 @@
+[phases]
+focus_duration = 1500      # 25 min em segundos
+break_duration = 300       # 5 min
+long_break_duration = 900  # 15 min
+cycles_before_long_break = 3

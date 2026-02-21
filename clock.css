@@ -1,0 +1,81 @@
+Screen{
+    background: #111111;
+}
+.warning Screen{
+    background:  #f1f1f1;
+}
+.warning Digits{
+    color:  #111111;
+}
+
+Digits  {
+    width: auto;
+    margin: 1;
+    color: #f1f1f1;
+}
+
+TimeDisplay{
+     align: center middle;
+}
+
+Botoes{
+     layout: horizontal;
+     align: center middle;
+}
+
+Button{
+     margin: 1;
+     align: center middle;
+}
+
+/*START*/
+#start{
+    display: block;
+}
+.started  #start{
+    display: none
+}
+.skipped  #start{
+    display: none
+}
+.paused #start{
+    display: block;
+}
+.stop #start{
+    display: block;
+}
+
+
+/*STOP*/
+#stop{
+    display: none;
+}
+.started  #stop{
+    display: block;
+}
+.skipped  #stop{
+    display: block;
+}
+.paused #stop{
+    display: block;
+}
+.stop #stop{
+    display: none;
+}
+
+/*PAUSE*/
+#pause{
+    display: none;
+}
+.started  #pause{
+    display: block
+}
+.skipped  #pause{
+    display: block
+}
+.paused #pause{
+    display: none;
+}
+.stop #pause{
+    display: none;
+}
